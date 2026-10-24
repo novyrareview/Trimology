@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Landing Page</title>
+  <meta name="description" content="A clean, simple landing page template.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #1f2937;
+      background: #f5f7fb;
+      line-height: 1.6;
+    }
+    header {
+      padding: 18px 7%;
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      font-weight: bold;
+    }
+    main {
+      min-height: 75vh;
+      display: grid;
+      place-items: center;
+      padding: 48px 20px;
+    }
+    .hero {
+      width: min(720px, 100%);
+      padding: 48px 32px;
+      text-align: center;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 12px 35px rgba(31, 41, 55, .08);
+    }
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+      color: #111827;
+    }
+    p { margin: 0 auto 26px; max-width: 560px; color: #6b7280; }
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      background: #2563eb;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button:hover { background: #1d4ed8; }
+    footer {
+      padding: 22px;
+      text-align: center;
+      color: #6b7280;
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>Your Website</header>
+  <main>
+    <section class="hero">
+      <h1>Welcome to Your Website</h1>
+      <p>A simple, clean landing page. Replace this text with your own message and update the button link below.</p>
+      <a class="button" href="https://example.com">Get Started</a>
+    </section>
+  </main>
+  <footer>© 2026 Your Website. All rights reserved.</footer>
+</body>
+</html>
